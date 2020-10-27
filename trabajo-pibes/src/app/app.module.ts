@@ -11,13 +11,15 @@ import { FechaConexionPipe } from './pipes/fecha-conexion.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatInputModule} from '@angular/material/input';
+import { NumeroCuadradoPipe } from './pipes/numero-cuadrado.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimeraMayusPipe,
     PruebaComponent,
-    FechaConexionPipe
+    FechaConexionPipe,
+    NumeroCuadradoPipe
   ],
   imports: [
     BrowserModule,

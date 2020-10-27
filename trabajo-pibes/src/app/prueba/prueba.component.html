@@ -34,7 +34,24 @@
     <p> {{fechaConexion2}} </p>
    <p><strong>Salida:</strong></p>
    <p> {{fechaConexion2 | fechaConexion}} </p>
-   
-
 </div>
 
+<div class="cuadrado">
+  
+   <h2>Número elevado al cuadrado:</h2>
+   <h3>Primer ejemplo: </h3>
+   <p><strong>Entrada:</strong></p> 
+    <p> {{numeroCuadrado1}} </p>
+   <p><strong>Salida:</strong></p>
+   <p> {{numeroCuadrado1 | numeroCuadrado}} </p>
+   
+   <h3>Segundo ejemplo: </h3>
+   <p><strong>Entrada:</strong></p> 
+    <p> {{numeroCuadrado2}} </p>
+   <p><strong>Salida:</strong></p>
+   <p> {{numeroCuadrado2 | numeroCuadrado}} </p>
+
+   <h3>Ejemplo tiempo real: </h3>
+   <input type="number" [(ngModel)]="inputNumber">
+   <p>{{inputNumber | numeroCuadrado}}</p>
+</div>
