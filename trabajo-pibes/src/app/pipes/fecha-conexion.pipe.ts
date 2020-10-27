@@ -23,7 +23,7 @@ export class FechaConexionPipe implements PipeTransform {
     return "Conectado este mes";
    } else if ((fechaActual.getTime() - date.getTime()   >= 3600000*24) && (fechaActual.getMonth()-date.getMonth() == 1)) {
     return "Conectado el mes pasado";
-   } else if (fechaActual.getTime() - date.getTime()   <= 3600000*1440) {
+   } else if (fechaActual.getTime() - date.getTime()   <= 3600000*20000) {
     return "Conectado este año";
    }
 

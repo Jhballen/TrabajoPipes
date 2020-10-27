@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatInputModule} from '@angular/material/input';
 import { NumeroCuadradoPipe } from './pipes/numero-cuadrado.pipe';
+import { MayusAlterPipe } from './pipes/mayus-alter.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NumeroCuadradoPipe } from './pipes/numero-cuadrado.pipe';
     PrimeraMayusPipe,
     PruebaComponent,
     FechaConexionPipe,
-    NumeroCuadradoPipe
+    NumeroCuadradoPipe,
+    MayusAlterPipe
   ],
   imports: [
     BrowserModule,
